@@ -24,7 +24,7 @@ function Get-TEXMFOS([string]$TexHome)
 }
 
 if ("" -eq $TexHome) {
-    $script:TexHome="D:\SDK\context\tex"
+    $script:TexHome="D:\SDK\ConTeXt\tex"
 }
 
 $TEXMFOS = Get-TEXMFOS $TexHome
